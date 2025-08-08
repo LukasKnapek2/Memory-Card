@@ -1,12 +1,39 @@
-# React + Vite
+Pokémon Memory Game 🎮
+This is a fun, web-based memory game built with React. The goal is to click on each Pokémon card only once. If you click the same card twice, your score resets! The game keeps track of your best score across browser sessions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Memory Challenge: A simple but engaging game loop.
 
-Currently, two official plugins are available:
+Dynamic Card Display: Fetches Pokémon data and images from the PokeAPI on initial load.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Randomized Cards: The cards are shuffled after every click to prevent you from memorizing their positions.
 
-## Expanding the ESLint configuration
+Score Tracking: Keeps a running Current Score and a Best Score that persists in your browser's local storage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: The layout is optimized for both desktop and mobile devices.
+
+💻 Tech Stack
+React: The core JavaScript library for building the user interface.
+
+Vite: Used for a fast development environment and optimized bundling.
+
+JavaScript: The programming language used for all game logic.
+
+CSS: For styling the application and creating the responsive grid layout.
+
+🚀 How to Run Locally
+To get this project up and running on your machine, follow these steps:
+
+Clone the repository:
+git clone [your-repo-url]
+
+Navigate to the project directory:
+cd [your-project-folder]
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+This will open the application in your browser at http://localhost:5173.

@@ -1,0 +1,23 @@
+
+
+.scoreboard-container {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.score-item {
+  background-color: #161b22;
+  padding: 1rem;
+  border-radius: 9999px; 
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #30363d;
+  color: aliceblue;
+}
+
+.score-value {
+  color: #64b5f6; 
+}
